@@ -182,24 +182,15 @@ const uint32_t P2P_IDLE_CONNECTION_KILL_INTERVAL             = (5 * 60);      //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 const char* const SEED_NODES[] = { 
-  "173.199.71.78:46347",                // Node-01 CROAT.community
-  "104.238.167.37:46347",               // Node-02 CROAT.community
-  "199.247.17.199:46347",               // Node-04 CROAT.community  
-  "173.249.32.180:46347",               // Node-01 de CROAT Pirineus
-  "80.241.213.210:46347",               // Node-02 de CROAT Pirineus
-  "199.247.29.17:46347",                // Node de POOL.CAT 
-  "207.180.226.44:46347",               // Node de CROAT.pro
+  "194.163.182.12:46347",                // Node-01 CROAT.community
+  "194.163.180.123:46347",               // Node-02 CROAT.community
+  "173.249.32.180:46347",                // Node-03 CROAT.community
 };
 
 const char* const TRUSTED_NODES[] = {
-  "173.199.71.78",                  // Node-01 CROAT.community
-  "104.238.167.37",                 // Node-02 CROAT.community
-  "199.247.17.199",                 // Node-04 CROAT.community
-  "173.249.32.180",                 // Node-01 de CROAT Pirineus
-  "80.241.213.210",                 // Node-02 de CROAT Pirineus
-  "199.247.29.17",                  // Node de POOL.CAT 
-  "207.180.226.44",                 // Node de CROAT.pro
-};
+  "194.163.182.12",                  // Node-01 CROAT.community
+  "194.163.180.123",                 // Node-02 CROAT.community
+  "173.249.32.180",                  // Node-03 CROAT.community};
 
 } // CryptoNote
 
